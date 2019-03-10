@@ -1,0 +1,288 @@
+[
+  {
+    "uid": "Ice",
+    "header": "Ice_master",
+    "tech_description": "Learn an ultimate Ice technique",
+    "icon": 30,
+    "bgimg": "",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "sdfsfsfs",
+          "lane": 0,
+          "depth": 0,
+          "header": "",
+          "tech_description": "",
+          "bgimg": "",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              16
+            ],
+            "commonevents": [],
+            "animation": {
+              "id": 152
+            },
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "Chieudai",
+          "lane": 1,
+          "depth": 1,
+          "header": "Cocytus",
+          "tech_description": "Ultimate_Ice",
+          "bgimg": "",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              31
+            ],
+            "commonevents": [],
+            "animation": {
+              "id": 152
+            },
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      }
+    ],
+    "animation": {
+      "id": 0
+    },
+    "hideGoldCost": false,
+    "hideJPCost": false,
+    "costItems": []
+  },
+  {
+    "uid": "Fire",
+    "header": "Fire skill",
+    "tech_description": "asdasdad",
+    "icon": 0,
+    "bgimg": "Crystal",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "Fire",
+          "lane": 1,
+          "depth": 1,
+          "header": "FireBall",
+          "tech_description": "You can learn FireBall",
+          "bgimg": "Universe",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              12
+            ],
+            "commonevents": [],
+            "animation": {
+              "id": 0
+            },
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "Fire_V2",
+          "lane": 1,
+          "depth": 2,
+          "header": "FireBall_Upgrade",
+          "tech_description": "Charge into a bigger FireBall",
+          "bgimg": "Universe",
+          "parents": [
+            {
+              "parent": "Fire"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [
+              {
+                "id": 21,
+                "value": true
+              }
+            ],
+            "skills": [],
+            "commonevents": [],
+            "animation": {
+              "id": 143
+            },
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      }
+    ],
+    "animation": {
+      "id": 0
+    },
+    "hideGoldCost": false,
+    "hideJPCost": false,
+    "costItems": []
+  },
+  {
+    "uid": "Technique",
+    "header": "Movement",
+    "tech_description": "You can learn how to dash",
+    "icon": 0,
+    "bgimg": "Book",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "Movement",
+          "lane": 1,
+          "depth": 1,
+          "header": "Dash",
+          "tech_description": "Move forward 2 steps",
+          "bgimg": "Hexagram",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [
+              {
+                "id": 41,
+                "value": true
+              }
+            ],
+            "skills": [],
+            "commonevents": [],
+            "animation": {
+              "id": 91
+            },
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      }
+    ],
+    "animation": {
+      "id": 0
+    },
+    "hideGoldCost": false,
+    "hideJPCost": false,
+    "costItems": []
+  }
+
+]
